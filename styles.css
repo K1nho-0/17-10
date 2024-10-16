@@ -8,18 +8,57 @@ body {
     align-items: center;
     height: 100vh;
     background-color: #f0f0f0;
+    transition: background-image 0.5s; /* Suaviza as mudanças de imagem */
 }
 
-body {
-    position: relative;
+    body {
+position: relative;
+background-size: cover; /* Faz a imagem preencher toda a tela */
+background-position: center; /* Centraliza a imagem */
+background-repeat: no-repeat;
+background-color: transparent; /* Define cor inicial transparente */
+transition: background-color 0.5s; /* Suaviza as mudanças */  
+}
+
+.fase1 {
+    background-image: url("./imagens/01.jpg");  
+}
+
+.fase2 {
     background-image: url("./imagens/02.jpg");
-    background-size: cover; /* Faz a imagem preencher toda a tela */
-    background-position: center 60%; /* Centraliza a imagem */
-    background-repeat: no-repeat;
-    background-color: transparent; /* Define cor inicial transparente */
-    transition: background-color 0.5s; /* Suaviza as mudanças */
 }
 
+.fase3 {
+    background-image: url("./imagens/03.jpg");
+}
+
+.fase4 {
+    background-image: url("./imagens/04.jpg");
+}
+
+.fase5 {
+    background-image: url("./imagens/05.jpg");
+}
+
+.fase6 {
+    background-image: url("./imagens/06.jpg");
+}
+
+.fase7 {
+    background-image: url("./imagens/07.jpg");
+}
+
+.fase8 {
+    background-image: url("./imagens/08.jpg");
+}
+
+.fase9 {
+    background-image: url("./imagens/09.jpg");
+}
+
+.fase10 {
+    background-image: url("./imagens/10.jpg");
+}
 
 #game-container {
     width: 80%;
